@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="small-text-24 columns">
+    <div class="divider"></div>
+  </div>
+</div>
+  <div class="row">
+  <div id="breadcrumbs" class="large-24 columns">
+    <ul class="inline-list">
+      <li><a href="http://phila.gov">phila.gov</a></li>
+      <li><a href="index.html">ePay Gateway</a></li>
+      <li><a href="form.html">Street closure permit</a></li>
+      <li>Pay</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-12 columns">
+    <h1>Street Closure Permit</h1>
+    <form class="alternate" action="bill.html">
+      <p>Description of the form</p>
+      <p>
+        <label for="text">Email <abbr title="Required">*</abbr></label>
+        <input id="text" type="email" placeholder="Enter your email" required>
+      </p>
+      <p>
+        <label for="text">Confirm Email <abbr title="Required">*</abbr></label>
+        <input id="text" type="email" placeholder="Confirm your email" required>
+      </p>
+      <button href="#" class="button alternate" type="submit">Pay</button>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div class="small-24 columns">
+    <h2>Your Bill</h2>
+    <table class="bill" role="grid">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Credits</th>
+          <th>Charges</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>01-23-2015</td>
+        <td>Street Closure Permit</td>
+        <td>$0</td>
+        <td>$10</td>
+      </tr>
+      <tfoot>
+        <tr>
+          <td colspan="4">Due date: 3-3-2015</td>
+        </tr>
+        <tr class="due">
+          <td colspan="3">Total Due:</td>
+          <td>$10</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </div>
+</div>
