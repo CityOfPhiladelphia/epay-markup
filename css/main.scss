@@ -1,0 +1,32 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+//app-specific styles
+
+@media only screen and (max-width: 40em) {
+
+  a.button {
+    padding:0;
+    border:0;
+    background:none !important;
+    color:#027EA4!important;
+    margin:0;
+
+  &:link, &:visited{
+    color: #027EA4!important;
+    text-decoration: none;
+    font-weight: 700;
+    border:none!important;
+    }
+    &:hover, &a:active{
+      color: #353535!important;
+      background:none!important;
+    }
+  }
+}
+
+.panel {
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom:0;
+  }
+}
