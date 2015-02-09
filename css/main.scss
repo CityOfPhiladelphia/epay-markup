@@ -3,6 +3,10 @@
 ---
 //app-specific styles
 
+a.button {
+  width:100%;
+}
+
 @media only screen and (max-width: 40em) {
 
   a.button {
@@ -11,7 +15,7 @@
     background:none !important;
     color:#027EA4!important;
     margin:0;
-    width:100%;
+    text-align:left;
 
   &:link, &:visited{
     color: #027EA4!important;
