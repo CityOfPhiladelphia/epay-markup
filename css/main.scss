@@ -52,10 +52,9 @@ a.button {
 
 //Water bill specific styles
 .water-drop {
-
   display:inline;
   float:left;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 64em) {
     display:none;
   }
 }
@@ -66,7 +65,7 @@ table.BillingContentTable{
 
 .BillingSummaryTable{
   width:90%;
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 64em) {
     width:100%;
   }
 }
