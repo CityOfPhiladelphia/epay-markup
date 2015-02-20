@@ -3,6 +3,19 @@
 ---
 //app-specific styles
 
+%vertical-align {
+  position: relative;
+  top: 50%;
+  display:block;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.columns {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
 .callout{
   h1, h2, h3, h4, h5, h6 {
     margin:0;
@@ -25,7 +38,12 @@
 }
 
 a.button {
+  display:block;
   width:100%;
+  height:57px;
+}
+a.button span{
+  @extend %vertical-align;
 }
 @media only screen and (max-width: 40em) {
 
