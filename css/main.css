@@ -78,8 +78,6 @@ table.BillingContentTable {
   .panel {
     padding: 1em; }
 
-  .panel h2 {
-    word-break: break-all; }
 
   footer {
     padding: 10px 0; }
