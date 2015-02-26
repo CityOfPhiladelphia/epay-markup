@@ -78,6 +78,9 @@ table.BillingContentTable {
   .panel {
     padding: 1em; }
 
+  .epay-error {
+    padding:0 10px 10px 10px;
+  }
 
   footer {
     padding: 10px 0; }
