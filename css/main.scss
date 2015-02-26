@@ -87,3 +87,44 @@ table.BillingContentTable{
     width:100%;
   }
 }
+
+@media only screen and (max-width: 40em) {
+  h1, .h1 {
+    font-size:1.3rem;
+  }
+
+  h2, .h2 {
+    font-size:1.1rem;
+  }
+  .callout p {
+    font-size:75%;
+  }
+
+  a.button{
+    height:40px;
+    span {
+      font-size: 1.2em;
+    }
+  }
+  .panel {
+    padding:1em;
+  }
+  footer {
+    padding:10px 0;
+  }
+  table.riTable {
+    position:relative;
+  }
+  table .riCell {
+    position:absolute;
+    top:20px;
+    left:0;
+  }
+  table tr td{
+    padding:0;
+  }
+  .epay-error {
+    padding:0 10px 10px 10px;
+    margin-bottom:10px;
+  }
+}
